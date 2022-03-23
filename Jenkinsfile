@@ -29,7 +29,6 @@ pipeline {
  sh '''
 
  ./mvnw package -DskipTests \
-
  -Dquarkus.package.type=uber-jar
 
  '''
